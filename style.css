@@ -4,6 +4,8 @@
     padding:0;
     background-color: rgb(135, 215, 226);}
 
+html {scroll-behavior: smooth;}
+
 body {
     margin: 0;
     padding: 0;
@@ -47,6 +49,9 @@ h1 {
     padding: 5px,10px;
     color: rgb(183, 75, 48);
     font-size: 20px; }
+
+.nav-links a:hover{ 
+    background-size: 100% 100%;}
 
 .hero {
     background-image: url(https://ychef.files.bbci.co.uk/1600x900/p04sxcrp.webp);
