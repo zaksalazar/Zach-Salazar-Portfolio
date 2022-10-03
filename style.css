@@ -50,19 +50,21 @@ h1 {
     color: rgb(183, 75, 48);
     font-size: 20px; }
 
-.nav-links a:hover{ 
+.nav-links li a:hover{ 
     background-size: 100% 100%;}
 
 .hero {
-    background-image: url(https://ychef.files.bbci.co.uk/1600x900/p04sxcrp.webp);
+    background-image: url("https://jimpattersonphotography.com/wordpress/wp-content/gallery/sierra-nevada/cache/Sierra-Nevada-Mountains-Picture-Peak-Sunset.jpg-nggid03302-ngg0dyn-1500x1071x100-00f0w010c010r110f110r010t010.jpg");
     background-size: cover;
-    background-position:center;
+    background-position:contain;
     min-height: 30vh;
+    width: 100%;
+    Height: 300px;
     padding: 2% 6%;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-    text-align: right;;
+    text-align: right;
 }
 
 .content h2 {
