@@ -20,14 +20,24 @@ padding: 15px,6% 15px,0;
 flex-wrap: wrap;
 background-color: rgb(69, 76, 82)
 }
-#name {
-    background-color: rgb(183, 75, 48);
-    color: rgb(69, 76, 82);
-    padding:5px,1%,5px,6%;
-    margin: 0;
-    font size:4vw;
-    line-height: 1.5; 
+
+header h1 {
+    background-color:rgb(183, 75, 48);
+    color:rgb(69, 76, 82);
+    padding: 5px, 1%, 5px, 6%;
+    margin: 15px;
+    font-size: 4vw;
+    line-height: 1;
 }
+h1 {    
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;}
+
 .main-nav li {
     display:inline;
     cursor: pointer;
@@ -36,7 +46,7 @@ background-color: rgb(69, 76, 82)
 .nav-links {
     padding: 5px,10px;
     color: rgb(183, 75, 48);
-    font-size: 14; }
+    font-size: 20px; }
 
 .hero {
     background-image: url(https://ychef.files.bbci.co.uk/1600x900/p04sxcrp.webp);
@@ -50,7 +60,30 @@ background-color: rgb(69, 76, 82)
     text-align: right;;
 }
 
+.content h2 {
+    flex: 0 0 20%;
+    text-align: left;
+    padding-right: 15px;
+    border-right: 4px solid var(--primary);
+    font-size: 3vw;
+    line-height: 1.1;}
 
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.content p {margin: 30px;}
 
+p {    
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;}
 
 
