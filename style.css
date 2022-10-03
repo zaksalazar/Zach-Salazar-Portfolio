@@ -1,0 +1,56 @@
+
+* {box-sizing: border-box;
+    margin:0;
+    padding:0;
+    background-color: rgb(135, 215, 226);}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(69, 76, 82);
+    background-color: rgb(135, 215, 226);
+    line-height: 1.5;
+}
+header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px,6% 15px,0;
+flex-wrap: wrap;
+background-color: rgb(69, 76, 82)
+}
+#name {
+    background-color: rgb(183, 75, 48);
+    color: rgb(69, 76, 82);
+    padding:5px,1%,5px,6%;
+    margin: 0;
+    font size:4vw;
+    line-height: 1.5; 
+}
+.main-nav li {
+    display:inline;
+    cursor: pointer;
+    background-color: rgb(69, 76, 82);}
+
+.nav-links {
+    padding: 5px,10px;
+    color: rgb(183, 75, 48);
+    font-size: 14; }
+
+.hero {
+    background-image: url(https://ychef.files.bbci.co.uk/1600x900/p04sxcrp.webp);
+    background-size: cover;
+    background-position:center;
+    min-height: 30vh;
+    padding: 2% 6%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: right;;
+}
+
+
+
+
+
