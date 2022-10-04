@@ -94,7 +94,7 @@ main {
     margin-left: auto;
     margin-right: auto;}
 
-.content{
+.page-section{
     margin: 25px 0;
     padding: 10px 0;
     display: flex;
@@ -104,7 +104,7 @@ main {
     justify-content: space-between;
   }
 
-.content > h2 {
+.page-section > h2 {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
@@ -122,7 +122,9 @@ h2 {
     font-weight: bold;
     color:  rgb(69, 76, 82);
 }
-.content p {margin: 30px;}
+.page-section p {
+    margin: 30px;
+}
 
 p {    
     display: block;
@@ -130,6 +132,7 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;}
+
 .page-section > div {
     flex: 0 0 77%}
 
@@ -137,6 +140,24 @@ p {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.flex-item {
+    border: 5px solid var(--secondary);
+    background-color: var(--primary);
+    color: var(--tertiary);
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode: soft-light;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
 }
 .flex-item:first-child {
         min-height: 400px;
@@ -147,24 +168,14 @@ p {
         background-image: url("../portfolio/assests/images/digital-marketing-meeting.jpeg");
     }
 
-.flex-item {
-        border: 5px solid var(--secondary);
-        background-color: var(--primary);
-        color: var(--tertiary);
-        min-height: 150px;
-        max-height: 150px;
-        flex-basis: calc(50% - 1em);
-        display: flex;
-        align-items: flex-end;
-        padding: 0 0 20px 0;
-        margin: 0.5em;
-        text-decoration: none;
-        background-blend-mode: soft-light;
-        background-size: 150%;
-        transition: all 0.5s;
-        font-size: 0.9rem;
-    }
+.flex-item div {
+        background-color: red;
+        padding: 8px 10px;  
+}
 
+div{
+    display:block;
+}
 .flex-item div:hover {
     cursor: pointer;
 }
@@ -182,9 +193,7 @@ h3 {
     margin-inline-end: 0px;
     font-weight: bold;
 }
-.content > div {
-        flex: 0 0 77%;
-    }
+
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -212,4 +221,21 @@ h3 {
 .contact a:hover{
     cursor:pointer 
     rgb(225, 146, 97)
+}
+
+.juniper {
+    background-image: url("../portfolio/assests/images/yosemite-np-06.jpeg");
+    
+}
+
+.half-dome {
+    background-image: url("../portfolio/assests/images/half-dome.jpeg");
+}
+
+.sequia {
+    background-image: url("../portfolio/assests/images/sequia.jpeg");
+}
+
+.jay {
+    background-image: url("../portfolio/assests/images/jay.jpeg");
 }
