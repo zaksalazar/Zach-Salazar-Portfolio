@@ -130,7 +130,58 @@ p {
     margin-block-end: 1em;
     margin-inline-start: 0px;
     margin-inline-end: 0px;}
+.page-section > div {
+    flex: 0 0 77%}
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flex-item:first-child {
+        min-height: 400px;
+        flex-basis: 100%;
+    }
+
+.horiseon {
+        background-image: url("../portfolio/assests/images/digital-marketing-meeting.jpeg");
+    }
+
+.flex-item {
+        border: 5px solid var(--secondary);
+        background-color: var(--primary);
+        color: var(--tertiary);
+        min-height: 150px;
+        max-height: 150px;
+        flex-basis: calc(50% - 1em);
+        display: flex;
+        align-items: flex-end;
+        padding: 0 0 20px 0;
+        margin: 0.5em;
+        text-decoration: none;
+        background-blend-mode: soft-light;
+        background-size: 150%;
+        transition: all 0.5s;
+        font-size: 0.9rem;
+    }
+
+.flex-item div:hover {
+    cursor: pointer;
+}
+
+.flex-item h3 {
+    font-size: 1.6rem;
+}
+
+h3 {
+    display: block;
+    font-size: 1.17em;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
 .content > div {
         flex: 0 0 77%;
     }
@@ -143,7 +194,7 @@ p {
 }
 
 .contact a {
-    color: rgb(225, 146, 97);
+    color: rgb(69, 76, 82);
     padding: 5px;
     text-decoration: none;
     font-size: 1.3rem;
@@ -155,5 +206,10 @@ p {
     transition: all 0.25s ease-in;
     margin: 0 0.2rem 0.1rem;
     display: inline-block;
-
+    justify-content: center;
+    align-content: bottom;
+}
+.contact a:hover{
+    cursor:pointer 
+    rgb(225, 146, 97)
 }
