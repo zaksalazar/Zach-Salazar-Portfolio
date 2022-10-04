@@ -25,7 +25,7 @@ background-color: rgb(69, 76, 82)
 }
 
 header h1 {
-    background-color:rgb(183, 100, 48);
+    background-color:rgb(215, 152, 112);
     color:rgb(69, 76, 82);
     padding: 5px, 1%, 5px, 6%;
     margin: 15px;
@@ -42,7 +42,6 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;}
 nav {
-    color:rgb(183, 75, 48);
     background-color:  rgb(69, 76, 82);
     display: flex;
     flex-direction: row;
@@ -55,21 +54,19 @@ nav a {
     text-decoration: none;
     box-shadow: inset 0 0 0 0 #54b3d6;
     padding: 5px,10px;
-    color: rgb(183, 75, 48);
-    font-size: 14px; 
+    color: rgb(215, 152, 112);
+    font-size: 26px; 
     background-image: linear-gradient(270deg, var(--secondary) 0%, var(--secondary) 100%);
     background-repeat: no-repeat;
     background-size: 100% 0.2em;
     background-position: bottom;
-    transition: all 0.25s ease-in;
-    transition: color.3s ease-in-out;
     background-color:rgb(69, 76, 82);}
 
  nav a:hover{ 
     background-size: 150% 150%;
+    font-size:30px;
     color:aqua
     }
-
 
 .hero {
     background-image: url("../portfolio/assests/images/sierra.png");
@@ -84,6 +81,11 @@ nav a {
     align-items: flex-end;
     text-align: right;
 }
+
+.page-wrapper {    
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;}
 
 .content h2 {
     flex: 0 0 20%;
@@ -111,4 +113,16 @@ p {
     margin-inline-start: 0px;
     margin-inline-end: 0px;}
 
+.content h2 {
+    flex: 0 0 20%;
+    text-align: left;
+    padding-right: 15px;
+    border-right: 4px solid rgb(69, 76, 82);
+    font-size: 4vw;
+    line-height: 1.1;
+}
 
+.contact {
+    display: inline
+    ;
+}
