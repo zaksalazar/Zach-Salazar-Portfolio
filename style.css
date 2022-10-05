@@ -180,7 +180,8 @@ p {
 
 .horiseon {
         background-image: url("../portfolio/assests/images/digital-marketing-meeting.jpeg");
-        border-radius: 5% 5%;
+        border-radius: 30px;
+        background-position: left;
     }
 
 .flex-item div {
@@ -248,23 +249,27 @@ h3 {
 
 .juniper {
     background-image: url("../portfolio/assests/images/yosemite-np-06.jpeg");
-    border-radius: 5%;
-    
+    border-radius: 30px;
+    background-position: right
 }
 
 .half-dome {
     background-image: url("../portfolio/assests/images/half-dome.jpeg");
-    border-radius: 5%;
+    border-radius: 30px;
+    background-size: cover;
+    background-position: 90% 20%;
 }
 
 .sequia {
     background-image: url("../portfolio/assests/images/sequia.jpeg");
-    border-radius: 5%;
+    border-radius: 30px;
 }
 
 .jay {
     background-image: url("../portfolio/assests/images/jay.jpeg");
-    border-radius: 5%;
+    border-radius: 30px;
+    background-position: 70% 35%;
+    background-size: cover;
 }
 
 @media screen and (max-width: 980px) {
