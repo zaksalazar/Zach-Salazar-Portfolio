@@ -1,8 +1,6 @@
 
 * {box-sizing: border-box;
-    margin:0;
-    padding:0;
-    background-color: rgb(135, 215, 226);}
+}
 
 
 html {scroll-behavior: smooth;}
@@ -182,16 +180,16 @@ p {
         background-image: url("../portfolio/assests/images/digital-marketing-meeting.jpeg");
         border-radius: 30px;
         background-position: left;
+    
     }
 
 .flex-item div {
-        background-color: rgb(34, 95, 34);
         padding: 8px 10px;  
+        background-color: rgb(34, 95, 34);
+        border-radius: 15px;
+        display:block;
 }
 
-div{
-    display:block;
-}
 .flex-item div:hover {
     cursor: pointer;
 }
@@ -200,7 +198,7 @@ div{
     font-size: 1.6rem;
     background-color:  rgb(34, 95, 34);
     color:rgb(135, 215, 226);
-    padding: 8px 10px;
+    
 }
 
 .flex-item span {
@@ -269,7 +267,6 @@ h3 {
     background-image: url("../portfolio/assests/images/jay.jpeg");
     border-radius: 30px;
     background-position: 70% 35%;
-    background-size: cover;
 }
 
 @media screen and (max-width: 980px) {
