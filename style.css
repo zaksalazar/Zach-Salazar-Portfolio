@@ -3,6 +3,8 @@
 }
 
 
+
+
 html {scroll-behavior: smooth;}
 
 body {
@@ -131,6 +133,7 @@ h2 {
     height:300px;
     margin: 10px;
     border-radius: 5%;
+    border: solid 5px rgb(34, 95, 34);
 }
 p {    
     display: block;
@@ -151,9 +154,7 @@ p {
 }
 
 .flex-item {
-    border: 5px solid var(--secondary);
-    background-color: var(--primary);
-    color: var(--tertiary);
+    border: 5px solid  rgb(34, 95, 34);
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
@@ -170,6 +171,8 @@ p {
 
 .flex-item:hover {
     background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 30px;
+    border-color: rgb(225, 146, 97)
 }
 .flex-item:first-child {
         min-height: 400px;
@@ -241,31 +244,26 @@ h3 {
     align-content: bottom;
 }
 .contact a:hover{
-    cursor:pointer 
-    rgb(225, 146, 97)
+    cursor:pointer;
 }
 
 .juniper {
     background-image: url("./assests/images/yosemite-np-06.jpeg");
-    border-radius: 30px;
     background-position: right
 }
 
 .half-dome {
     background-image: url("./assests/images/half-dome.jpeg");
-    border-radius: 30px;
     background-size: cover;
     background-position: 90% 20%;
 }
 
 .sequia {
     background-image: url("./assests/images/sequia.jpeg");
-    border-radius: 30px;
 }
 
 .jay {
     background-image: url("./assests/images/jay.jpeg");
-    border-radius: 30px;
     background-position: 70% 35%;
 }
 
