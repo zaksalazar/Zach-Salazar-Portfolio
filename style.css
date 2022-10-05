@@ -99,7 +99,6 @@ main {
     padding: 10px 0;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-between;
   }
@@ -108,9 +107,10 @@ main {
     flex: 0 0 20%;
     text-align: right;
     padding-right: 15px;
-    border-right: 4px solid  rgb(69, 76, 82);
+    border-right: 4px solid rgb(69, 76, 82);
     font-size: 3vw;
-    line-height: 1.1;}
+    line-height: 1.1;
+}
 
 h2 {
     display: block;
@@ -126,12 +126,22 @@ h2 {
     margin: 30px;
 }
 
+.profile {
+    display: flex;
+}
+.profile img {
+    height:300px;
+    margin: 10px;
+    border-radius: 5%;
+}
 p {    
     display: block;
     margin-block-start: 1em;
     margin-block-end: 1em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;}
+    margin-inline-end: 0px;
+    font-size: 24;
+}
 
 .page-section > div {
     flex: 0 0 77%}
@@ -159,6 +169,10 @@ p {
     transition: all 0.5s;
     font-size: 0.9rem;
 }
+
+.flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
 .flex-item:first-child {
         min-height: 400px;
         flex-basis: 100%;
@@ -166,6 +180,7 @@ p {
 
 .horiseon {
         background-image: url("../portfolio/assests/images/digital-marketing-meeting.jpeg");
+        border-radius: 5% 5%;
     }
 
 .flex-item div {
@@ -182,6 +197,14 @@ div{
 
 .flex-item h3 {
     font-size: 1.6rem;
+    background-color:  rgb(34, 95, 34);
+    color:rgb(135, 215, 226);
+    padding: 8px 10px;
+}
+
+.flex-item span {
+    color:rgb(135, 215, 226);
+    background-color:  rgb(34, 95, 34);
 }
 
 h3 {
@@ -225,21 +248,57 @@ h3 {
 
 .juniper {
     background-image: url("../portfolio/assests/images/yosemite-np-06.jpeg");
+    border-radius: 5%;
     
 }
 
 .half-dome {
     background-image: url("../portfolio/assests/images/half-dome.jpeg");
+    border-radius: 5%;
 }
 
 .sequia {
     background-image: url("../portfolio/assests/images/sequia.jpeg");
+    border-radius: 5%;
 }
 
 .jay {
     background-image: url("../portfolio/assests/images/jay.jpeg");
+    border-radius: 5%;
 }
 
+@media screen and (max-width: 980px) {
+    header {
+      padding: 0 0 10px 0;
+      justify-content: center;
+      text-align: center;
+    }
+  
+    header h1 {
+      width: 100%;
+      padding: 5px;
+      margin-bottom: 10px;
+      font-size: 10vw;
+    }
+  
+    header nav {
+      justify-content: center;
+    }
+  
+    .page-section > h2,
+    .page-section > div {
+      flex: 0 0 100%;
+    }
+  
+    .page-section > h2 {
+      border-right: none;
+      border-bottom: 4px solid var(--primary);
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      text-align: left;
+      font-size: 7vw;
+    }
+}
 @media screen and (max-width: 768px) {
     .flex-item,
     .flex-item:first-child {
