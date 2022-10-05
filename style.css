@@ -244,6 +244,7 @@ h3 {
     background-position: bottom;
     transition: all 0.25s ease-in;
     margin: 0 0.2rem 0.1rem;
+    margin-top: 50px;
     display: inline-block;
     justify-content: center;
     align-content: bottom;
