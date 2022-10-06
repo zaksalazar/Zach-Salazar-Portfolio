@@ -196,15 +196,15 @@ p {
     /* below are the links and style rules for background image for the first project */ 
 .horiseon {
         background-image: url("./assests/images/digital-marketing-meeting.jpeg");
-        border-radius: 30px;
         background-position: left;
     }
 
 .flex-item div {
         padding: 8px 10px;  
         background-color: rgb(34, 95, 34);
-        border-radius: 15px;
         display:block;
+        border-radius: 30px;
+        margin-block-start: auto;
 }
 
 .flex-item div:hover {
