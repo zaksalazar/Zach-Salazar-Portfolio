@@ -4,7 +4,7 @@
 
 
 
-
+/* this is the style rules for your scroll */ 
 html {scroll-behavior: smooth;}
 
 body {
@@ -15,6 +15,8 @@ body {
     background-color: rgb(135, 215, 226);
     line-height: 1.5;
 }
+
+/* this is your header section */
 header {
 display: flex;
 justify-content: space-between;
@@ -42,6 +44,7 @@ h1 {
     margin-inline-end: 0px;
     font-weight: bold;}
 
+    /* these are the style rules for your nav bar */ 
 nav {
     background-color:  rgb(69, 76, 82);
     display: flex;
@@ -70,6 +73,7 @@ nav a {
     color:aqua
     }
 
+    /* these are the style rules for the hero image */ 
 .hero {
     background-image: url("./assests/images/sierra.png");
     background-size: cover;
@@ -127,6 +131,7 @@ h2 {
     font-size: medium;
 }
 
+/* below are the style rules for the profile picture */ 
 .profile {
     display: flex;
 }
@@ -136,6 +141,8 @@ h2 {
     border-radius: 5%;
     border: solid 5px rgb(34, 95, 34);
 }
+
+/* below are the style rules for paragraphs */ 
 p {    
     display: block;
     margin-block-start: 1em;
@@ -149,6 +156,8 @@ p {
     margin-top: 50px;
     margin-right:3in;
 }
+
+/* below are the style rules for the work section of the website */ 
 .page-section > div {
     flex: 0 0 77%}
 
@@ -184,11 +193,11 @@ p {
         flex-basis: 100%;
     }
 
+    /* below are the links and style rules for background image for the first project */ 
 .horiseon {
         background-image: url("./assests/images/digital-marketing-meeting.jpeg");
         border-radius: 30px;
         background-position: left;
-    
     }
 
 .flex-item div {
@@ -206,7 +215,6 @@ p {
     font-size: 1.6rem;
     background-color:  rgb(34, 95, 34);
     color:rgb(135, 215, 226);
-    
 }
 
 .flex-item span {
@@ -224,6 +232,7 @@ h3 {
     font-weight: bold;
 }
 
+/* below are the style rules for the contact section */ 
 .contact {
     display: flex;
     flex-wrap: wrap;
@@ -253,6 +262,7 @@ h3 {
     cursor:pointer;
 }
 
+/* below are the style rules for the remaining background images */ 
 .juniper {
     background-image: url("./assests/images/yosemite-np-06.jpeg");
     background-position: right
@@ -273,6 +283,7 @@ h3 {
     background-position: 70% 35%;
 }
 
+/* below are the style rules for media queries */ 
 @media screen and (max-width: 980px) {
     header {
       padding: 0 0 10px 0;
