@@ -8,7 +8,7 @@ I want a portfolio with samples of my work
 So that I can display samples of my work and show I am a good candidte for an open position. 
 
 ## Screenshot
-![Portfolio Screenshot](/assests/images/screen-shot.png)
+![Portfolio Screenshot](./assests/images/Screen%20Shot%20.png)
 
 ## Deployed Website 
 https://zaksalazar.github.io/Zach-Salazar-Portfolio/
